@@ -8,7 +8,7 @@ const Demo = ({ player, isDetailsShowing, setDetailsShowing }) => {
       <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 backdrop-blur-sm  outline-none focus:outline-none">
         <div className="relative w-auto my-6 mx-auto max-w-3xl">
           {/* Modal Content */}
-          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full p-0 bg-white outline-none focus:outline-none">
+          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full p-0 bg-slate-200 outline-none focus:outline-none">
             <div className="flex justify-end">
               <div onClick={handleClose}>
                 <img
